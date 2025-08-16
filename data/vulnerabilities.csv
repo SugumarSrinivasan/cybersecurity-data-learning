@@ -1,0 +1,16 @@
+Asset_Name,IP_Address,Vulnerability_Name,Severity,CVE_ID,Found_Date,Description,Status
+Web-Server-01,192.168.1.10,Apache HTTP Server Information Disclosure,Medium,CVE-2023-25690,2024-01-15,Information disclosure vulnerability in Apache HTTP Server,Open
+Database-Server-01,192.168.1.20,MySQL Privilege Escalation,High,CVE-2023-22084,2024-01-14,Privilege escalation vulnerability in MySQL Server,Open
+Workstation-045,192.168.1.45,Windows SMB Remote Code Execution,Critical,CVE-2023-21554,2024-01-16,Remote code execution vulnerability in Windows SMB,Open
+Web-Server-02,192.168.1.11,Nginx Buffer Overflow,High,CVE-2023-44487,2024-01-15,Buffer overflow vulnerability in Nginx web server,Open
+File-Server-01,192.168.1.30,Samba Directory Traversal,Medium,CVE-2023-3961,2024-01-13,Directory traversal vulnerability in Samba file server,Patched
+Workstation-021,192.168.1.21,Adobe Reader Code Execution,Critical,CVE-2023-26369,2024-01-17,Remote code execution in Adobe Acrobat Reader,Open
+Database-Server-02,192.168.1.22,PostgreSQL SQL Injection,High,CVE-2023-39417,2024-01-12,SQL injection vulnerability in PostgreSQL,Open
+Web-Server-03,192.168.1.12,PHP Information Disclosure,Low,CVE-2023-0662,2024-01-18,Information disclosure in PHP interpreter,Open
+Workstation-033,192.168.1.33,Chrome Browser Sandbox Escape,Critical,CVE-2023-4863,2024-01-16,Sandbox escape vulnerability in Chrome browser,Patched
+Mail-Server-01,192.168.1.40,Postfix Mail Server DoS,Medium,CVE-2023-32681,2024-01-14,Denial of service vulnerability in Postfix,Open
+Workstation-067,192.168.1.67,Firefox Memory Corruption,High,CVE-2023-4574,2024-01-19,Memory corruption vulnerability in Firefox,Open
+Web-Server-04,192.168.1.13,Tomcat Remote Code Execution,Critical,CVE-2023-46589,2024-01-15,Remote code execution in Apache Tomcat,Open
+Network-Switch-01,192.168.1.100,Cisco IOS Command Injection,High,CVE-2023-20198,2024-01-11,Command injection in Cisco IOS XE software,Open
+Workstation-089,192.168.1.89,Office 365 Privilege Escalation,Medium,CVE-2023-36033,2024-01-20,Privilege escalation in Microsoft Office,Open
+Database-Server-03,192.168.1.23,Redis Unauthorized Access,High,CVE-2023-28856,2024-01-13,Unauthorized access to Redis database,Patched
