@@ -66,6 +66,7 @@ source venv/bin/activate
 
 # Run Day 1 analysis
 python3 scripts/step1_read_data.py
+```
 
 📚 Learning Resources
 
