@@ -17,20 +17,21 @@ Building a simple vulnerability data analysis tool to learn:
 
 ### Week 1: Data Reading & Basic Analysis
 - **Day 1**: ✅ Read CSV files and explore data structure
-- **Day 2**: ⏳ Filter data by severity levels
-- **Day 3**: ⏳ Count vulnerabilities by asset
-- **Day 4**: ⏳ Find oldest/newest vulnerabilities
-- **Day 5**: ⏳ Generate basic summary report
+- **Day 2**: ✅ Filter data by severity and create priority reports  
+- **Day 3**: ⏳ Count and group vulnerabilities by patterns
+- **Day 4**: ⏳ Find trends and time-based analysis
+- **Day 5**: ⏳ Generate comprehensive summary reports
 
-### Week 2: Advanced Analysis
+### Week 2: Advanced Analysis & Visualization
 - Coming soon...
 
 ## 📈 Progress Tracking
 
-**Scripts Created**: 1  
-**Data Files Processed**: 1  
-**Key Concepts Learned**: 4  
-**GitHub Commits**: 1
+**Scripts Created**: 2  
+**Data Files Processed**: 15 vulnerability records  
+**Reports Generated**: 3 automated CSV reports  
+**Key Concepts Learned**: 8 (filtering, boolean indexing, prioritization)  
+**GitHub Commits**: 2
 
 ## 🔧 Tech Stack
 
@@ -42,8 +43,10 @@ Building a simple vulnerability data analysis tool to learn:
 ## 🎯 Skills I'm Building
 
 - [x] Basic Python programming
-- [x] CSV file processing
-- [ ] Data filtering and analysis
+- [x] CSV file processing  
+- [x] Data filtering and analysis
+- [x] Security risk prioritization
+- [ ] Data grouping and aggregation
 - [ ] Report generation
 - [ ] Data visualization
 - [ ] Automation scripting
@@ -66,6 +69,12 @@ source venv/bin/activate
 
 # Run Day 1 analysis
 python3 scripts/step1_read_data.py
+
+# Run Day 2 analysis
+python scripts/step2_filter_data.py
+
+# Check the generated reports
+ls reports/
 ```
 
 📚 Learning Resources

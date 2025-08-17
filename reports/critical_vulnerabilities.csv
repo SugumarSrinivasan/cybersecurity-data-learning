@@ -1,0 +1,5 @@
+Asset_Name,IP_Address,Vulnerability_Name,Severity,CVE_ID,Found_Date,Description,Status
+Workstation-045,192.168.1.45,Windows SMB Remote Code Execution,Critical,CVE-2023-21554,2024-01-16,Remote code execution vulnerability in Windows SMB,Open
+Workstation-021,192.168.1.21,Adobe Reader Code Execution,Critical,CVE-2023-26369,2024-01-17,Remote code execution in Adobe Acrobat Reader,Open
+Workstation-033,192.168.1.33,Chrome Browser Sandbox Escape,Critical,CVE-2023-4863,2024-01-16,Sandbox escape vulnerability in Chrome browser,Patched
+Web-Server-04,192.168.1.13,Tomcat Remote Code Execution,Critical,CVE-2023-46589,2024-01-15,Remote code execution in Apache Tomcat,Open
